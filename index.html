@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Typescript Components</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Typescript UI Controls" />
+    <meta name="author" content="Syncfusion" />
+    <!-- <link href="https://cdn.syncfusion.com/ej2/highcontrast.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/material.css" />
+    <script>
+        window.__karma__ = { files: {} };
+        window.require = {
+            config: function (json) {
+                window.rsConfig = json;
+                window.rsConfig.baseUrl = '';
+            }
+        };
+    </script>
+    
+    <script src="./test-main.js"></script>
+    <script src="./node_modules/requirejs/require.js" data-main="gridrequire.js"></script>
+    <script>
+        require.config(window.rsConfig);
+    </script>
+ 
+</head>
+<body>
+    <div class="stackblitz-container material">
+		<div id="target" class="col-lg-12 control-section" style="height:100%; width:100%;">
+			<div style="position:relative; top:10px; left:10px;">
+				<!-- Button to open the default Dialog -->
+				<!-- <button id="dialogBtn" type="button">Open</button> -->
+			</div>
+			<!-- Initialize default Dialog -->
+			<!-- <div id="defaultDialog">
+			</div> -->
+			<div id="Grid">
+        </div>
+		</div>
+
+
+		<style>
+			.e-btn-hide {
+				display: none;
+			}
+		</style>
+
+
+	</div>
+    </body> 
+</html>
+
+    
